@@ -1,0 +1,20 @@
+# Secrets — never commit API keys
+.env
+.env.*
+
+# Local / editor clutter
+.cursor/
+.history/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Large / confidential project files
+docs/
+outputs/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
